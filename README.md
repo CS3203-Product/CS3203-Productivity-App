@@ -1,2 +1,4 @@
 # CS3203-Productivity-App
-Producitivty App CS3203
+CS3203 Spring Semester
+Ticket 3
+Group H
