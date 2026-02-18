@@ -4,15 +4,14 @@ GroupH_Ticket3CodeManagement_CS3203Spring2026
 Project Description:
 Our product is a focus-productivity app. 
 
-Project goal: 
-We want to help users lock-in without overwhelming themselves, and getting things done efficiently so they don't procrastinate until the last second.
+Feature goal:
+Create a visual calendar interface for dragging blocks for time to do tasks. Start with basic daily/weekly views; branch out to integrations with external calendars, e.g., Google or Outlook.
 
-What Users will need to use the project:
-We are working on this.
-(what sort of support files they need to run it)
+What a fellow dev will need to use the project:
+import NiceGUI
 
 Questions, comments, or concerns?
 Message us on the class Discord.
 
 Who maintains:
-Current group leader: Zander
+Current group leader: Rayn
