@@ -1,12 +1,12 @@
 # CS3203-Productivity-App
 GroupH_Ticket3CodeManagement_CS3203Spring2026
 
-**Uncram**
+**Uncram**<br/>
 Uncram is a productivity program that helps users manage tasks through time blocking, conflict detection, and a prioritization engine that tracks deadlines and progress. An analytics dashboard monitors task completion, while a collaboration hub enables team communication, file sharing, and shared scheduling. To support focus, the program includes a timer, distraction-blocking web extension, and ambient sounds to keep users engaged during work sessions.
 
 This README will undergo several changes over the course of our product development. Anything that is currently a placeholder will be changed according to our progression. 
 
-**Installation Method**
+**Installation Method**<br/>
 At this time, an installation for the program is currently unavailable as it is currently in early stages of development.
 
 **Current Status**
