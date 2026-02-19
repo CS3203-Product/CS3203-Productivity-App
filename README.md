@@ -9,10 +9,10 @@ This README will undergo several changes over the course of our product developm
 **Installation Method**<br/>
 At this time, an installation for the program is currently unavailable as it is currently in early stages of development.
 
-**Current Status**
+**Current Status**<br/>
 The program is currently in early stages of development. Changes and updates on progression of our development will be stated explicitly here.
 
-**Usage**
+**Usage**<br/>
 Access and availability to the program is unavailable as the development is in its early stages. However, upon development completion, the program will be accessible on a public domain through the web included with all features.
 
 **Development Roadmap**
@@ -21,10 +21,10 @@ Access and availability to the program is unavailable as the development is in i
 
 **Focus Timer**
 + Implement a focus timer that turns on when focus sessions begin.
-+ Test UI of the focus timer to ensure it displays focus time remaining.
-**Distraction Blocker**
-+ Create a web-based extension that will prevent other programs from being browsed.
-**Ambient Focus Aids**
++ Test UI of the focus timer to ensure it displays focus time remaining. <br/>
+**Distraction Blocker**<br/>
++ Create a web-based extension that will prevent other programs from being browsed.<br/>
+**Ambient Focus Aids**<br/>
 + Design sounds and small tunes that best aid concentration during focus sessions.
 
 ***Phase 2: Task Progression***
@@ -34,16 +34,16 @@ Access and availability to the program is unavailable as the development is in i
 + Develop a dashboard category where task completion and progress can be viewed, indicating amount of work done and time spent on completion.
 + Construct a collaboration hub that allows communication with other users using the program, file sharing, and project management to track task progression.
 
-**Development Team**
-To reach developers on the team about product inquires, discord usernames are listed below:
+**Development Team**<br/>
+To reach developers on the team about product inquires, discord usernames are listed below:<br/>
 
-[dopc]
-[thesilverback4521]
-[crazinessjoy]
-[nguyetng]
-[onejosh]
-[yoghurtboy]
-[cindaman]
+[dopc]<br/>
+[thesilverback4521]<br/>
+[cindaman]<br/>
+[yoghurtboy]<br/>
+[nguyetng]<br/>
+[onejosh]<br/>
+[crazinessjoy]<br/>
 	
 
 
