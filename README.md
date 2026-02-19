@@ -1,18 +1,49 @@
 # CS3203-Productivity-App
 GroupH_Ticket3CodeManagement_CS3203Spring2026
 
-Project Description:
-Our product is a focus-productivity app. 
+**Uncram**
+Uncram is a productivity program that helps users manage tasks through time blocking, conflict detection, and a prioritization engine that tracks deadlines and progress. An analytics dashboard monitors task completion, while a collaboration hub enables team communication, file sharing, and shared scheduling. To support focus, the program includes a timer, distraction-blocking web extension, and ambient sounds to keep users engaged during work sessions.
 
-Project goal: 
-We want to help users lock-in without overwhelming themselves, and getting things done efficiently so they don't procrastinate until the last second.
+This README will undergo several changes over the course of our product development. Anything that is currently a placeholder will be changed according to our progression. 
 
-What Users will need to use the project:
-We are working on this.
-(what sort of support files they need to run it)
+**Installation Method**
+At this time, an installation for the program is currently unavailable as it is currently in early stages of development.
 
-Questions, comments, or concerns?
-Message us on the class Discord.
+**Current Status**
+The program is currently in early stages of development. Changes and updates on progression of our development will be stated explicitly here.
 
-Who maintains:
-Current group leader: Zander
+**Usage**
+Access and availability to the program is unavailable as the development is in its early stages. However, upon development completion, the program will be accessible on a public domain through the web included with all features.
+
+**Development Roadmap**
+
+***Phase 1: Task Concentration***
+
+**Focus Timer**
++ Implement a focus timer that turns on when focus sessions begin.
++ Test UI of the focus timer to ensure it displays focus time remaining.
+**Distraction Blocker**
++ Create a web-based extension that will prevent other programs from being browsed.
+**Ambient Focus Aids**
++ Design sounds and small tunes that best aid concentration during focus sessions.
+
+***Phase 2: Task Progression***
+
+**Task Prioritization Engine**
++ Build an accessible page with an engine that stores task information, deadlines, calendar with scheduled tasks, along with providing small details about task completion.
++ Develop a dashboard category where task completion and progress can be viewed, indicating amount of work done and time spent on completion.
++ Construct a collaboration hub that allows communication with other users using the program, file sharing, and project management to track task progression.
+
+**Development Team**
+To reach developers on the team about product inquires, discord usernames are listed below:
+
+[dopc]
+[thesilverback4521]
+[crazinessjoy]
+[nguyetng]
+[onejosh]
+[yoghurtboy]
+[cindaman]
+	
+
+
