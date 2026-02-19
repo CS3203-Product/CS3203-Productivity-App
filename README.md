@@ -21,10 +21,12 @@ Access and availability to the program is unavailable as the development is in i
 
 **Focus Timer**
 + Implement a focus timer that turns on when focus sessions begin.
-+ Test UI of the focus timer to ensure it displays focus time remaining. <br/>
-**Distraction Blocker**<br/>
-+ Create a web-based extension that will prevent other programs from being browsed.<br/>
-**Ambient Focus Aids**<br/>
++ Test UI of the focus timer to ensure it displays focus time remaining.
+  
+**Distraction Blocker**
++ Create a web-based extension that will prevent other programs from being browsed.
+  
+**Ambient Focus Aids**
 + Design sounds and small tunes that best aid concentration during focus sessions.
 
 ***Phase 2: Task Progression***
