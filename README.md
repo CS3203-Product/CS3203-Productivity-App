@@ -36,6 +36,14 @@ Access and availability to the program is unavailable as the development is in i
 + Develop a dashboard category where task completion and progress can be viewed, indicating amount of work done and time spent on completion.
 + Construct a collaboration hub that allows communication with other users using the program, file sharing, and project management to track task progression.
 
+**Task Analytics Dashboard**
++ Design a dashboard that collects task completion progress, records time spent on task completion, and how many tasks are being completed on a daily bais
++ Provides task completion and analytics data based on daily progression, weekly progression, etc.
+
+**Collaboration Hub**
++ Develop a collaborative tool that allows for file sharing, communication, and managing projects and tasks.
++ Ensure tasks within a group can undergo changes by group members, tasks can be completed and submitted individually, and users can communicate task completion progress with others in their groups. 
+
 **Development Team**<br/>
 To reach developers on the team about product inquires, discord usernames are listed below:<br/>
 
