@@ -49,13 +49,18 @@ class TimeBlockingScheduler:
             rows=self.rows,
         )
 
-        select1 = ui.select(['Sunday', 'Monday', 'Tuesday'], value=1)
+        select1 = ui.select(['Sunday', 'Monday', 'Tuesday'], value='Sunday')
 
         self.text = ui.input(label='New Task', placeholder='Start typing...')
 
         def add_row():
             typed = self.text.value
-            self.rows.append({'col1': typed})
+            day = select1.value.lower()[:3]   # 'Sunday' → 'sun'
+            
+            new_row = {col['name']: '' for col in self.columns}
+            new_row[day] = typed
+
+            self.rows.append(new_row)
             self.table.rows = self.rows
             self.table.update()
             ui.notify(f'Added: {typed}')
@@ -65,7 +70,6 @@ class TimeBlockingScheduler:
 TimeBlockingScheduler()
 
 ui.run()
-pass
 
 class FocusModeTimer:
     # This class is responsible for implementing a focus mode timer to help users stay focused on their tasks
