@@ -1,10 +1,36 @@
+from nicegui import ui
+
 class Uncram:
     # This is the main class for the Uncram tool
     pass
 
 class TaskPrioritizationEngine:
     # This class is responsible for prioritizing tasks based on various factors
-    pass
+    def __init__(self):
+        self.container = ui.column()  # where tasks will appear
+
+        self.input_field = ui.input(
+            label='New Task',
+            placeholder='start typing',
+            validation={'Input too long': lambda value: len(value) < 20}    # Adjust this as needed, it's just a character limit
+        )
+        self.input_field.on('keydown.enter', self.add_task)     # when user hits 'enter', the text they 
+                                                                # entered is put into an uneditable text box
+                                                                # Make it editable/deletable later
+
+    def add_task(self, e):
+        text = self.input_field.value.strip()
+        if not text:
+            return
+
+        with self.container:
+            ui.label(text)  # add a new text block
+
+        self.input_field.value = ''  # clear input for next task
+
+app = TaskPrioritizationEngine()
+ui.run()
+
 class TimeBlockingScheduler:
     # This class is responsible for scheduling tasks into time blocks
     pass
