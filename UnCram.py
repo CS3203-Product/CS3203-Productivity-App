@@ -50,15 +50,9 @@ class TaskPrioritizationEngine:
             task_frame = ui.column().classes('p-2 border rounded')
 
             with task_frame:
-                row = ui.row().classes('items-center gap-4')
-
                 task_label = ui.label(text).classes('flex-grow')
                 task_input = ui.input(value=text).classes('flex-grow')
                 task_input.visible = False
-
-                switch = ui.switch('Mark important')
-                important_label = ui.label('Important')
-                important_label.bind_visibility_from(switch, 'value')
 
                 edit_button = ui.button('Edit')
                 save_button = ui.button('Save')
@@ -101,16 +95,8 @@ class TaskPrioritizationEngine:
 
                 cancel_button.on_click(lambda _: cancel_edit())
 
-            task_frame.bind_class('bg-yellow-100', switch, 'value')
-
         self.input_field.value = ''
         self.input_field.focus()
-
-   # def test(Task task):
-   #     print(task.importance)
-    #    print(task.due_day)
-     #   print(task.name)
-
 
 app = TaskPrioritizationEngine()
 ui.run()
